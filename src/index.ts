@@ -13,7 +13,7 @@ let BranchToken = "";
 let host = "";
 let hosts = {
   staging: "https://z-wallet.monpay.mn",
-  prod: "https://wallet.candy.mn",
+  prod: "https://wallet.monpay.mn",
 };
 
 export default {

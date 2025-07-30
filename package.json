@@ -1,6 +1,6 @@
 {
   "name": "@togtokh.dev/monpay",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "monpay is a library for payment gateway.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
