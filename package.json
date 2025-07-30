@@ -1,0 +1,53 @@
+{
+  "name": "@togtokh.dev/monpay",
+  "version": "0.0.8",
+  "description": "monpay is a library for payment gateway.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "types/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "rm -rf ./dist && npx tsc",
+    "build": "npx tsc",
+    "debug": "npm run build && npm run watch-debug",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/togtokh-dev/library-monpay.git"
+  },
+  "keywords": [
+    "monpay",
+    "axios",
+    "togtokh.dev"
+  ],
+  "author": "TOGTOKH.DEV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/togtokh-dev/library-monpay/issues"
+  },
+  "homepage": "https://github.com/togtokh-dev/library-monpay/#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "axios-master": "2.0.2",
+    "https": "^1.0.0",
+    "qs": "^6.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/qs": "^6.9.14",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "i": "^0.3.7",
+    "npm": "^10.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
